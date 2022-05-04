@@ -6,7 +6,7 @@
       class="input"
       type="text"
       placeholder="Название"
-    />
+    />пш
     <input
       v-model="post.body"
       class="input"
