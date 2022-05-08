@@ -4,7 +4,7 @@
     @create="createPost" 
     />
     <post-list 
-    :posts="posts" 
+    v-bind:posts="posts" 
     />
   </div>
 </template>

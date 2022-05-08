@@ -6,7 +6,7 @@
       class="input"
       type="text"
       placeholder="Название"
-    />пш
+    />
     <input
       v-model="post.body"
       class="input"
@@ -38,7 +38,10 @@ export default {
       };
     },
   },
-};
+ // methods:{
+
+  }
+
 </script>
 // $emit сгенироровать событие под которое может подписаться родительский комитет.
 
